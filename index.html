@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bundle And Save</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main class="container">
+        <h1>Bundle & Save</h1>
+        
+        <div class="bundle-options">
+            <div class="bundle-option selected">
+                <div class="option-header">
+                    <input type="radio" name="bundle" id="pair1" checked>
+                    <div class="option-info">
+                        <div class="pair-count">1 Pair</div>
+                        <div class="price">DKK 195.00</div>
+                    </div>
+                    <div class="discount">50% OFF</div>
+                </div>
+                
+                <div class="size-selectors">
+                    <div class="selector">
+                        <label for="size1">#1</label>
+                        <select id="size1" class="size-select">
+                            <option value="S">S</option>
+                            <option value="M">M</option>
+                            <option value="L">L</option>
+                        </select>
+                        <select class="colour-select">
+                            <option value="colour">Colour</option>
+                        </select>
+                    </div>
+                    <div class="selector">
+                        <label for="size2">#2</label>
+                        <select id="size2" class="size-select">
+                            <option value="S">S</option>
+                            <option value="M">M</option>
+                            <option value="L">L</option>
+                        </select>
+                        <select class="colour-select">
+                            <option value="colour">Colour</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bundle-option">
+                <div class="option-header">
+                    <input type="radio" name="bundle" id="pair2">
+                    <div class="option-info">
+                        <div class="pair-count">2 Pair</div>
+                        <div class="price">DKK 345.00</div>
+                        <div class="original-price">DKK 195.00</div>
+                    </div>
+                    <div class="discount popular">40% OFF</div>
+                    <div class="most-popular">Most Popular</div>
+                </div>
+                <div class="size-selectors hidden">
+                    <div class="selector">
+                        <label for="size3">#1</label>
+                        <select id="size3" class="size-select">
+                            <option value="S">S</option>
+                            <option value="M">M</option>
+                            <option value="L">L</option>
+                        </select>
+                        <select class="colour-select">
+                            <option value="colour">Colour</option>
+                        </select>
+                    </div>
+                    <div class="selector">
+                        <label for="size4">#2</label>
+                        <select id="size4" class="size-select">
+                            <option value="S">S</option>
+                            <option value="M">M</option>
+                            <option value="L">L</option>
+                        </select>
+                        <select class="colour-select">
+                            <option value="colour">Colour</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bundle-option">
+                <div class="option-header">
+                    <input type="radio" name="bundle" id="pair3">
+                    <div class="option-info">
+                        <div class="pair-count">3 Pair</div>
+                        <div class="price">DKK 528.00</div>
+                    </div>
+                    <div class="discount">60% OFF</div>
+                </div>
+                <div class="size-selectors hidden">
+                    <div class="selector">
+                        <label for="size5">#1</label>
+                        <select id="size5" class="size-select">
+                            <option value="S">S</option>
+                            <option value="M">M</option>
+                            <option value="L">L</option>
+                        </select>
+                        <select class="colour-select">
+                            <option value="colour">Colour</option>
+                        </select>
+                    </div>
+                    <div class="selector">
+                        <label for="size6">#2</label>
+                        <select id="size6" class="size-select">
+                            <option value="S">S</option>
+                            <option value="M">M</option>
+                            <option value="L">L</option>
+                        </select>
+                        <select class="colour-select">
+                            <option value="colour">Colour</option>
+                        </select>
+                    </div>
+                    <div class="selector">
+                        <label for="size7">#3</label>
+                        <select id="size7" class="size-select">
+                            <option value="S">S</option>
+                            <option value="M">M</option>
+                            <option value="L">L</option>
+                        </select>
+                        <select class="colour-select">
+                            <option value="colour">Colour</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="shipping-info">
+            <span>Free 2 Day Shipping</span>
+            <span class="total">Total : DKK 360.00</span>
+        </div>
+
+        <button class="add-to-cart">+ Add to Cart</button>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
